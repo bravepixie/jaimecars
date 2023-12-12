@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JaimeCars - Car dealer</title>
+    <link rel="stylesheet" href="styles/style.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="ism/css/my-slider.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="nav container">
+        <i class="bx bx-menu"></i>
+        <a href="#" class="logo">
+          <span class="jaime">jaime</span><span class="cars">cars</span></a
+        >
+        <ul class="navbar">
+          <li><a href="#Home" class="active">Home</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#cars">Cars</a></li>
+          <li><a href="#Service">Services</a></li>
+          <li><a href="#Blog">Our blog</a></li>
+          <li><a href="#contact">Contact Us</a></li>
+        </ul>
+        <i class="bx bx-search" id="search-icon"></i>
+        <div class="search-box container">
+          <input
+            type="search"
+            placeholder="Search items..."
+            id="search-box"
+            name=""
+          />
+        </div>
+      </div>
+    </header>
+    <div>
+      <img src="images/header.png" class="headimg" />
+    </div>
+    <section class="home" id="Home">
+      <div class="home-text">
+        <h1>Driving Dreams, Delivering Trust</h1>
+        <p>
+          Our success is measured by the smiles of over 1 million satisfied
+          customers.
+        </p>
+
+        <h4>
+          Visit our state-of-the-art showroom today for a unique Experience!
+        </h4>
+        <br />
+
+        <button id="togglebtn" onclick="toggleText()" class="btnhome">
+          Discover more ...
+        </button>
+        <p id="toggleText" style="display: none">
+          Welcome to JaimeCars, where your automotive dreams come to life! With
+          over a decade of dedicated service, JaimeCars has been a trusted name
+          in the automotive industry, providing a seamless and enjoyable
+          car-buying experience for our valued customers.
+        </p>
+      </div>
+    </section>
+    <!-- cars section -->
+    <section class="cars" id="cars">
+      <div class="heading">
+        <span>OUR CARS</span>
+        <h2>We have all ranges of cars, new and used just for you</h2>
+        <p>
+          Select from our highest quality cars, both used and brand new. All
+          have been tested and certified.
+        </p>
+      </div>
+      <!-- car container -->
+      <div class="cars-container container">
+        <!--box 1-->
+        <div class="box">
+          <img src="images/car1.jpg" alt="" />
+
+          <button onclick="window.location.href='cars1.html';">
+            <h2>2023 Tesla model S Plaid</h2>
+          </button>
+        </div>
+        <!--box 2-->
+        <div class="box">
+          <img src="images/car2.jpg" alt="" />
+          <button onclick="window.location.href='cars2.html';">
+            <h2>2023 Tesla model 3 performance</h2>
+          </button>
+        </div>
+        <!--box 3-->
+        <div class="box">
+          <img src="images/car3.jpg" alt="" />
+          <button onclick="window.location.href='cars3.html';">
+          <h2>2023 Tesla model y performance</h2>
+        </div>
+        <!--box 4-->
+        <div class="box">
+          <img src="images/car4.jpg" alt="" />
+          <button onclick="window.location.href='cars4.html';">
+          <h2>Tesla model X plaid</h2>
+        </div>
+        <!--box 5-->
+        <div class="box">
+          <img src="images/car5.jpg" alt="" />
+          <button onclick="window.location.href='cars5.html';">
+          <h2>2016 Ford MUSTANG</h2>
+        </div>
+        <!--box 6-->
+        <div class="box">
+          <img src="images/car11.png" alt="" />
+          <button onclick="window.location.href='cars6.html';">
+          <h2>Lamborghini Hurican</h2>
+        </div>
+        <!--box 7-->
+        <div class="box">
+          <img src="images/car12.png" alt="" />
+          <button onclick="window.location.href='cars7.html';">
+          <h2>2013 toyota rav4</h2>
+        </div>
+        <!--box 8-->
+        <div class="box">
+          <img src="images/car13.png" alt="" />
+          <button onclick="window.location.href='cars7.html';">
+          <h2>Lucid air</h2>
+        </div>
+      </div>
+      <button onclick="window.location.href='index.html#cars';">
+        <h5>More ...</h5>
+      </button>
+      <h6>Picture Courtesy: Tesla.com, Google search</h6>
+    </section>
+    <!-- About Section -->
+    <section class="about container" id="About">
+      <div class="about-img">
+        <img src="images/about.jpg" alt="" />
+      </div>
+      <div class="about-text">
+        <span>ABOUT US</span>
+        <h2>JaimeCars - Driving Dreams, Delivering Trust</h2>
+        <p>
+          Welcome to JaimeCars, where your automotive dreams come to life! With
+          over a decade of dedicated service, JaimeCars has been a trusted name
+          in the automotive industry, providing a seamless and enjoyable
+          car-buying experience for our valued customers.
+        </p>
+
+        <h4>A Decade of Excellence:</h4>
+        <p>
+          Established over 10 years ago, JaimeCars has proudly served the
+          community with a commitment to quality, reliability, and customer
+          satisfaction. Our journey began with a passion for automobiles and a
+          vision to create a dealership that goes beyond just selling cars – we
+          strive to build lasting relationships and make every customer a part
+          of the JaimeCars family.
+        </p>
+
+        <h4>Visit JaimeCars Today:</h4>
+        <p>
+          Experience the JaimeCars difference for yourself! Visit our
+          state-of-the-art showroom, where you'll find a wide selection of new
+          and used cars, backed by a team ready to assist you in making the
+          right choice. Join the ranks of our happy customers and let JaimeCars
+          be your trusted partner on the road.
+          <br />
+          Thank you for considering JaimeCars for your automotive needs. We look
+          forward to serving you and being a part of your driving journey.
+        </p>
+      </div>
+    </section>
+    <!-- Part Section -->
+    <section class="part container" id="Service">
+      <div class="heading">
+        <span>Our services</span>
+        <h2>Our Parts</h2>
+        <p>
+          We offer a wide range of parts for your car, from wheels to seats to
+          steering wheels. Our team of experts is dedicated to providing you
+          with the best possible service.
+        </p>
+      </div>
+      <!-- parts container -->
+      <div class="services-container container">
+        <div class="parts-box">
+          <img src="images/part1.jpg" alt="" />
+          <h3>TESLA steering wheel</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a
+            href="https://shop.tesla.com/product/model-s_x-steering-wheel-retrofit"
+            target="_blank"
+            class="btn"
+            >Buy Now</a
+          >
+          <a
+            href="https://shop.tesla.com/product/model-s_x-steering-wheel-retrofit"
+            class="details"
+            target="_blank"
+            >view details</a
+          >
+        </div>
+        <div class="parts-box">
+          <img src="images/part2.jpg" alt="" />
+          <h3>Spare Part</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part3.jpg" alt="" />
+          <h3>Car wheel rims</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part4.jpg" alt="" />
+          <h3>TESLA battery pack</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part5.jpg" alt="" />
+          <h3>car pedals</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part6.jpg" alt="" />
+          <h3>car engine</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part7.jpg" alt="" />
+          <h3>Turning indicators</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <div class="parts-box">
+          <img src="images/part8.jpg" alt="" />
+          <h3>car brakes light</h3>
+          <span>$157.99</span>
+          <i class="bx bxs-star">(over 500,000 reviews)</i>
+          <a href="#" class="btn">Buy Now</a>
+          <a href="#" class="details">view details</a>
+        </div>
+        <h6>Picture Courtesy: Amazon, eBay</h6>
+      </div>
+      <!-- end of parts container -->
+    </section>
+
+    <!----------------Our blog------------------->
+    <section class="blog" id="Blog">
+      <div class="heading">
+        <span>blog and Tips</span>
+        <h2>content</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem
+          quas fuga quaerat
+        </p>
+      </div>
+      <!----------------------blog-container----------------->
+      <div class="blog-container container">
+        <!--box 1 -->
+        <div class="blog-box">
+          <img src="images/car1.jpg" alt="" />
+          <span>December 13 2023</span>
+          <h3>How to choose the right car for YOU!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            voluptatem quod voluptat
+          </p>
+          <a href="#" class="blog-btn"
+            >read more<i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+        <!--box 2 -->
+        <div class="blog-box">
+          <img src="images/car2.jpg" alt="" />
+          <span>December 13 2023</span>
+          <h3>How to choose the right car for YOU!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            voluptatem quod voluptat
+          </p>
+          <a href="#" class="blog-btn"
+            >read more<i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+        <!--box 3 -->
+        <div class="blog-box">
+          <img src="images/car3.jpg" alt="" />
+          <span>December 13 2023</span>
+          <h3>How to choose the right car for YOU!</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum
+            voluptatem quod voluptat
+          </p>
+          <a href="#" class="blog-btn"
+            >read more<i class="bx bx-right-arrow-alt"></i
+          ></a>
+        </div>
+      </div>
+    </section>
+    <!--- Contact us section   --->
+    <section class="contact" id="contact">
+      <div class="contact-container">
+        <div class="heading">
+          <span>Contact Us</span>
+        </div>
+        <div class="contact-box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2973.2987696507944!2d-71.41968932475571!3d41.82186426893447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e4451293cbe54d%3A0x105518a3f94ffff7!2sProvidence%20Public%20Library!5e0!3m2!1sen!2sus!4v1702076709451!5m2!1sen!2sus"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <div class="contact-info">
+            <h5>Main Office:</h5>
+            <h6>United States</h6>
+            <p>
+              123 Main Street, Providence, Rhode Island, United States 027886
+            </p>
+            <p>Phone: 123-456-7890</p>
+            <p>Email: contact@jaimecars.com</p>
+            <div class="branchdiv">
+              <h5>Our Branches:</h5>
+              <h6>United Kingdom</h6>
+              <p>
+                123 Second Street, Portmannmoore Road, Cardiff, United Kingdon
+                027831
+              </p>
+              <p>Phone: 123-456-7890</p>
+              <p>Email: contact@jaimecarsuk.com</p>
+            </div>
+            <div class="branchdiv">
+              <h6>France</h6>
+              <p>123 Third street, Paris, France, E31320</p>
+              <p>Phone: 123-456-7890</p>
+              <p>Email: contact@jaimecarsfr.com</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-----footer sec------>
+    <section>
+      <div class="footer-container container">
+        <div class="footer-box">
+          <a href="#" class="logo">
+            <span class="jaime">jaime</span><span class="cars">cars</span></a
+          >
+          <div class="social a">
+            <h3>follow us</h3>
+            <a href="#"><i class="bx bxl-facebook"></i></a>
+            <a href="#"><i class="bx bxl-twitter"></i></a>
+            <a href="#"><i class="bx bxl-instagram"></i></a>
+            <a href="#"><i class="bx bxl-youtube"></i></a>
+          </div>
+        </div>
+        <div class="footer-box">
+          <h3>Pages</h3>
+          <a href="#">Home</a>
+          <a href="#">Cars</a>
+          <a href="#">Services</a>
+          <a href="#">Blog</a>
+        </div>
+        <div class="footer-box">
+          <h3>Legal</h3>
+          <a href="#">privacy</a>
+          <a href="#">Cars refunds</a>
+          <a href="#">cookie policy</a>
+        </div>
+        <div class="footer-box">
+          <h3>contact us</h3>
+          <p><span>United States</span></p>
+          <p>United Kingdom</p>
+          <p>France</p>
+          <p>Italy</p>
+        </div>
+      </div>
+    </section>
+
+    <!--copyright-->
+
+    <div class="copyright">
+      <p>
+        Copyright &copy; 2023 <span class="copyjaime">jaimecars</span
+        ><span class="cars"></span>. All rights reserved.
+      </p>
+    </div>
+
+    <script src="scripts/script.js"></script>
+  </body>
+</html>
